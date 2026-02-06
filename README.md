@@ -40,12 +40,15 @@ The project followed these stages:
 6. Final assembly and testing  
 
 
-## ⚙️ Software Logic Flow
+## ⚙️ Software and Progress Logic Flow
 
-To define how the system behaves during operation, a detailed software flowchart was created.
+To define how the system behaves during operation, a detailed software and its implementation to the hardware (progress) flowchart was created.
 
 ### Software Flowchart
-![Software Flowchart](images/software-flowchart.png)
+![Software Flowchart](images/software-flowchart.jpg)
+
+### Progress Flowchart
+![Progress Flowchart](images/progress-flowchart.jpg)
 
 The logic follows this sequence:
 - Initialize serial communication  
@@ -67,7 +70,7 @@ Initial testing was performed using a breadboard to verify:
 - Cursor movement accuracy  
 - Button functionality  
 
-![Breadboard Testing](images/breadboard-testing.png)
+![Breadboard Testing](images/breadboard-testing.jpg)
 
 This step helped identify and resolve issues early in the development process.
 
@@ -81,7 +84,7 @@ PCB fabrication involved several manual steps:
 4. Drilling component holes  
 5. Soldering components  
 
-![PCB Fabrication](images/pcb-fabrication.png)
+![PCB Fabrication](images/pcb-fabrication.jpg)
 
 Manual PCB layout drawing was chosen after automated transfer methods produced inconsistent and unclear traces.
 
@@ -100,6 +103,7 @@ Manual PCB layout drawing was chosen after automated transfer methods produced i
 The completed **GyroMouse** functions as a fully wireless **Bluetooth Low Energy air mouse**, capable of smooth cursor control and scrolling **without requiring a physical surface**.  
 The device demonstrates stable BLE connectivity, responsive motion tracking, and reliable button input.
 
-![Final Output](images/final-output.png)
+![Final Output](images/final-output1.jpg)
+![Final Output](images/final-output2.jpg)
 
  
