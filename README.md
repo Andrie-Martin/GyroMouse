@@ -29,7 +29,7 @@ The ESP32 continuously reads motion data from the MPU6050 and translates it into
 Before any hardware was built, the entire workflow of the project was planned.
 
 ### Overall Development Flow
-![Project Roadmap](Images/project-roadmap.png)
+![Project Roadmap](Images/project-roadmap.jpg)
 
 The project followed these stages:
 1. Idea evaluation and feature brainstorming  
@@ -46,9 +46,6 @@ To define how the system behaves during operation, a detailed software and its i
 
 ### Software Flowchart
 ![Software Flowchart](Images/software-flowchart.jpg)
-
-### Progress Flowchart
-![Progress Flowchart](Images/progress-flowchart.jpg)
 
 The logic follows this sequence:
 - Initialize serial communication  
